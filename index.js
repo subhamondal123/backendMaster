@@ -16,8 +16,8 @@ app.get('/youtube', (req,res) => {
     res.send('<h1>youtube2</h1>')
 })
 
-app.get('/youtube', (req,res) => {
-    res.json('<h1>youtube2</h1>')
+app.get('/react', (req,res) => {
+    res.json('<h1>React</h1>')
 })
 app.get('/sam', (req,res) => {
     res.send("sam123")
